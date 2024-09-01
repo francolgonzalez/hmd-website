@@ -88,6 +88,15 @@
   font-weight: bold;
 }
 
+
+.carousel-control-next-icon {
+  color: black !important;
+}
+
+.carousel-control-prev {
+  color: black !important;
+}
+
 /* INICIO END */
 
 
