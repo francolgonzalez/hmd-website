@@ -65,6 +65,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 0;
+  margin: 0;
 }
 
 .icon-images li {
@@ -80,3 +81,43 @@ footer {
   color: #A4A69C;
   transition: all 1s;
 }
+
+.productos-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px 16px;
+}
+
+
+.btn-global {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #232625;
+    border-radius: 10px;
+    background-color: #232625;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0 30px;
+    color: white;
+}
+
