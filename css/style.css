@@ -206,3 +206,351 @@ footer {
 
 /* CONTACTO END */
 
+/* BREAKPOINTS */
+
+@media (width > 600px) {
+  
+  /* INICIO */
+  
+  .header-texto p{
+    font-size: 1.2rem;
+    padding: 0 30px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 24rem !important;
+  }
+
+  .destacados-title {
+    font-size: 2.6rem;
+  }
+
+  /* PRODUCTOS */
+
+  .titles {
+    font-size: 2.4rem;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+  .btn-global {
+    font-size: 1.2rem;
+  }
+
+  /* CONTACTO */
+
+  .form-label {
+    font-size: 1.2rem;
+  }
+
+  .form-control {
+    height: 40px;
+  }
+
+  /* FOOTER */
+
+  .element-footer h3 {
+    font-size: 2.4rem;
+  }
+
+  .element-footer a {
+    font-size: 1.4rem;
+  }
+
+  .footer-info h3{
+    font-size: 2rem;
+  }
+
+  .footer-info p {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+@media (width > 720px) {
+
+  /* NAV */
+
+  .navbar-brand img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar-toggler-icon {
+    width:65px;
+    height: 65px;
+  }
+
+  .nav-link {
+   padding-top: 25px;
+    font-size: 2rem;
+  }
+
+  /* INICIO */
+  
+  .header-frase h1{
+    font-size: 2.8rem;
+  }
+
+  .header-texto p{
+    font-size: 1.6rem;
+    padding: 0 30px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 38rem !important;
+    margin-top: 50px;
+  }
+
+  .card img{
+    height: 900px;
+  }
+
+  .destacados-title {
+    font-size: 3.4rem;
+    padding-top: 40px;
+  }
+
+  /* PRODUCTOS */
+
+  .titles {
+    font-size: 3.4rem;
+  }
+
+  .card-title {
+    font-size: 2.8rem;
+  }
+
+  .card-text {
+    font-size: 2rem;
+    padding: 20px 40px;
+  }
+
+  .btn-global {
+    font-size: 2.2rem;
+    padding: 40px;
+    width: 200px;
+  }
+
+  /* CONTACTO */
+
+  .form-label {
+    font-size: 2.4rem;
+  }
+
+  .form-control {
+    height: 80px;
+    font-size: 1.9rem;
+  }
+
+
+
+  /* FOOTER */
+
+  .element-footer h3 {
+    font-size: 3rem;
+  }
+
+  .element-footer a {
+    font-size: 2.5rem;
+  }
+
+  .footer-info h3{
+    font-size: 3rem;
+  }
+
+  .footer-info p {
+    font-size: 2rem;
+  }
+}
+
+
+
+@media (width > 1365px) {
+
+  /* NAV */
+
+  .container {
+    display: flex;
+    justify-content: space-between ;
+  }
+
+  .navbar-toggler-icon {
+    width:65px;
+    height: 65px;
+  }
+
+  .nav-link {
+   padding-top: 25px;
+    font-size: 2rem;
+  }
+
+  /* INICIO */
+  
+  .header-frase h1{
+    font-size: 3rem;
+  }
+
+  .header-texto p{
+    font-size: 1.6rem;
+    padding: 0 60px;
+    margin-bottom: 50px;
+  }
+
+  .header-container {
+    display: flex;
+  }
+
+  .card {
+    width: 38rem !important;
+    margin-top: 50px;
+  }
+
+  .card img{
+    height: 900px;
+  }
+
+  .destacados-title {
+    font-size: 3.4rem;
+    padding-top: 40px;
+  }
+
+  /* PRODUCTOS */
+
+  .titles {
+    font-size: 3.4rem;
+    padding: 50px;
+  }
+
+  .card-title {
+    font-size: 2.4rem;
+  }
+
+  .card-text {
+    font-size: 2rem;
+    padding: 20px 40px;
+  }
+
+  .productos-container {
+    display: flex;
+  }
+
+  .btn-global {
+    font-size: 2.2rem;
+    padding: 30px;
+    width: 180px;
+  }
+
+  /* CONTACTO */
+
+  .form-label {
+    font-size: 2.2rem;
+  }
+
+  .form-control {
+    height: 80px;
+    font-size: 1.8rem;
+  }
+
+
+
+  /* FOOTER */
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .element-footer {
+    padding: 50px ;
+  }
+
+  .element-footer h3 {
+    font-size: 3rem;
+  }
+
+  .element-footer a {
+    font-size: 2.1rem;
+  }
+
+  .footer-info h3{
+    font-size: 2.8rem;
+  }
+
+  .footer-info p {
+    font-size: 1.9rem;
+  }
+
+  .icon-images svg {
+    height: 50px;
+    width: 50px;
+  }
+} 
+
+@media (width > 1439px) {
+
+  /* INICIO */
+
+  .card-title {
+    font-size: 2.1rem;
+  }
+
+  .card-text {
+    font-size: 1.7rem;
+    padding: 20px 40px;
+  }
+
+  .btn-global {
+    font-size: 2rem;
+    padding: 30px;
+    width: 160px;
+  }
+
+  /* FOOTER */
+
+  .element-footer {
+    padding: 50px ;
+  }
+
+  .element-footer h3 {
+    font-size: 2.7rem;
+  }
+
+  .element-footer a {
+    font-size: 1.8rem;
+  }
+
+  .contact-item svg {
+    width: 50px;
+    height: 30px;
+  }
+
+  .footer-info h3{
+    font-size: 2.5rem;
+  }
+
+  .footer-info p {
+    font-size: 1.6rem;
+  }
+
+  /* CONTACTO */
+
+  .form-label {
+    font-size: 2rem;
+  }
+
+  .form-control {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
